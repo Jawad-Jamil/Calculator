@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="https://www.colorcombos.com/images/colors/FF3C00.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+      <div class="calculator_wrapper">
+        <h2 id="heading">You Can Calculate Here</h2>
+
+        <div class="calculator">
+            <form name="datas" action="#">
+                <input type="number" name="number1" maxlength = "20" placeholder="First Number">
+                <input type="number" name="number2" maxlength = "20" placeholder="Second Number">
+
+                   <ul id="myList">
+                   </ul>
+
+                <button onclick="calculator(+datas.number1.value , +datas.number2.value)" type="button">Calculate</button>
+
+            </form>
+        </div>
+     </div>
+   </div>
+
+   <script src="custom.js"></script>
+</body>
+</html>
