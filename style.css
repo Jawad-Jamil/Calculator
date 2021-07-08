@@ -14,12 +14,16 @@ body{
 .container{
     width: 550px;
     height: auto;
-    margin: 0 auto;
     text-align: center;
     padding: 40px 0px;
     background-color: aliceblue;
     border-radius: 5px;
-    margin-top: 23px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 29.6%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .calculator_wrapper h2{
