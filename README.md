@@ -1,2 +1,2 @@
 # Calculator
-https://jawad12787.github.io/Calculator/
+https://jawad-jamil.github.io/Calculator/
